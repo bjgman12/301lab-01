@@ -1,0 +1,22 @@
+div {
+  display:table;
+  float:left;
+}
+
+footer {
+  float:right;
+}
+
+@media only screen and (min-width: 768px){
+  section#big {
+    float: left;
+  }
+
+section#little {
+  float:right;
+}
+
+footer {
+  float:right;
+}
+}
