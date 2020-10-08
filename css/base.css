@@ -28,7 +28,7 @@ section#big {
   background-color: lightgray;
 }
 
-section#little {
+section.little {
   height:125px;
   width:100%;
   text-align:center;
@@ -55,7 +55,48 @@ footer {
   background-color: lightgray;
 }
 
+
 @media only screen and (min-width: 768px){
+  *{
+    color: white;
+    font-size: 5vw;
+  }
+  main {
+    background-color: darkred;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  header {
+    background-color: black;
+    height: 20vh;
+    line-height: 20vh;
+  }
+
+  section#big {
+    background-color: black;
+  }
+
+  section.little {
+    height: 6vh;
+    line-height:6vh ;
+    background-color: black;
+  }
+
+  div {
+    background-color:orange;
+    color:black;
+  }
+
+  footer {
+    background-color: black;
+    height: 13vh;
+    line-height: 13vh ;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1026px){
 
   main{
     width: 960px;
@@ -77,21 +118,20 @@ footer {
     background-color: lightgreen;
   }
 
-  section#little {
+  section.little {
     height:200px;
-    width:380px;
+    width:384px;
     background-color: lightgreen;
   }
 
   div {
     height:250px;
-    width:190px;
+    width:193px;
     background-color: lightgreen;
   }
 
   footer {
-    height:150px;
-    width:760px;
+    height:156px;
     line-height: 150px;
     background-color: lightgreen;
   }
