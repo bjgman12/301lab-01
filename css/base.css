@@ -98,40 +98,52 @@ footer {
 
 @media only screen and (min-width: 1026px){
 
+  *{
+    font-size: 3em;
+    color:black;
+  }
   main{
     width: 960px;
+    height:700px;
     margin-left:auto;
     margin-right:auto;
-
+    background-color: white;
   }
 
-  body{width:100%}
+  body{  margin-left:auto;
+    margin-right:auto;
+    width:960px}
 
   header {
-    height: 100px;
+    height:100%;
     background-color: lightgreen;
+    width:100%;
+    line-height: 100%;
   }
 
   section#big{
-    height:600px;
-    width:200px;
+    height:100%;
+    width:100%;
     background-color: lightgreen;
+    line-height:1200%;
   }
 
   section.little {
-    height:200px;
-    width:384px;
+    height:100%;
+    width: 200%;
     background-color: lightgreen;
+    line-height: 400%;
   }
 
   div {
-    height:250px;
-    width:193px;
+    height:100%;
+    width:100%;
     background-color: lightgreen;
   }
 
   footer {
-    height:156px;
+    height:208%;
+      width:100%;
     line-height: 150px;
     background-color: lightgreen;
   }
